@@ -12,7 +12,7 @@ export const personalInfo = {
   bio: "I am a proactive Computer Science student and software developer passionate about modern web technologies, responsive user experiences, and collaborative open-source engineering. Whether developing full-stack web platforms, optimizing frontend performance, or contributing as an enthusiastic volunteer in tech teams, I take pride in turning creative ideas into scalable, beautiful realities.",
   status: "Available for Web Team & Full Stack Roles",
   location: "Hyderabad, India",
-  email: "harshithareddy.dev@gmail.com",
+  email: "harshithareddy5965@gmail.com",
   github: "https://github.com/harshithareddy",
   linkedin: "https://linkedin.com/in/harshithareddy",
   resumeUrl: "/resume.html", // printable & downloadable interactive CV

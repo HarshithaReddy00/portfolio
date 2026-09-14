@@ -16,7 +16,7 @@
 - 📄 **Interactive & Printable CV:** [View ATS-Friendly Resume](public/resume.html)
 - 🐙 **Public GitHub Repository:** [https://github.com/harshithareddy/portfolio](https://github.com/harshithareddy/portfolio)
 - 💼 **LinkedIn Profile:** [https://linkedin.com/in/harshithareddy](https://linkedin.com/in/harshithareddy)
-- 📧 **Direct Contact:** [harshithareddy.dev@gmail.com](mailto:harshithareddy.dev@gmail.com)
+- 📧 **Direct Contact:** [harshithareddy5965@gmail.com](mailto:harshithareddy5965@gmail.com)
 
 ---
 
@@ -228,7 +228,7 @@ git push -u origin main
 **Harshitha Reddy**
 - 🐙 GitHub: [@harshithareddy](https://github.com/harshithareddy)
 - 💼 LinkedIn: [Harshitha Reddy](https://linkedin.com/in/harshithareddy)
-- 📧 Email: [harshithareddy.dev@gmail.com](mailto:harshithareddy.dev@gmail.com)
+- 📧 Email: [harshithareddy5965@gmail.com](mailto:harshithareddy5965@gmail.com)
 
 ---
 
