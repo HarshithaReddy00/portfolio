@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harshitha Reddy - Resume / CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #4f46e5;
+      --text: #1f2937;
+      --muted: #4b5563;
+      --border: #e5e7eb;
+      --bg: #ffffff;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f3f4f6;
+      color: var(--text);
+      line-height: 1.5;
+      padding: 2rem 1rem;
+    }
+    .resume-container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 2.5rem 3rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    }
+    header {
+      border-bottom: 2px solid var(--primary);
+      padding-bottom: 1.25rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #111827;
+      letter-spacing: -0.02em;
+    }
+    .subtitle {
+      font-size: 1.1rem;
+      color: var(--primary);
+      font-weight: 600;
+      margin-top: 0.2rem;
+    }
+    .contact-info {
+      font-size: 0.875rem;
+      color: var(--muted);
+      text-align: right;
+    }
+    .contact-info a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+    section {
+      margin-bottom: 1.5rem;
+    }
+    h2 {
+      font-size: 1.15rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--primary);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.35rem;
+      margin-bottom: 0.85rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .entry {
+      margin-bottom: 1rem;
+    }
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-weight: 600;
+      font-size: 0.95rem;
+      color: #111827;
+    }
+    .entry-sub {
+      color: var(--muted);
+      font-size: 0.875rem;
+      font-weight: 500;
+      margin-bottom: 0.25rem;
+    }
+    .entry-date {
+      font-size: 0.85rem;
+      color: #6b7280;
+      font-weight: 400;
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: 1.25rem;
+      margin-top: 0.35rem;
+      font-size: 0.875rem;
+      color: #374151;
+    }
+    li {
+      margin-bottom: 0.2rem;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 140px 1fr;
+      row-gap: 0.5rem;
+      font-size: 0.875rem;
+    }
+    .skill-cat {
+      font-weight: 600;
+      color: #111827;
+    }
+    .skill-val {
+      color: #374151;
+    }
+    .actions-bar {
+      max-width: 800px;
+      margin: 0 auto 1.5rem auto;
+      display: flex;
+      justify-content: flex-end;
+      gap: 0.75rem;
+    }
+    .btn {
+      background: var(--primary);
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      font-size: 0.875rem;
+      font-weight: 600;
+      border-radius: 6px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .btn:hover {
+      background: #4338ca;
+    }
+    .btn-secondary {
+      background: #ffffff;
+      color: #374151;
+      border: 1px solid var(--border);
+    }
+    .btn-secondary:hover {
+      background: #f9fafb;
+    }
+    @media print {
+      body {
+        background: white;
+        padding: 0;
+      }
+      .actions-bar {
+        display: none !important;
+      }
+      .resume-container {
+        box-shadow: none;
+        padding: 0;
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="actions-bar">
+    <a href="/" class="btn btn-secondary">← Back to Portfolio</a>
+    <button onclick="window.print()" class="btn">🖨️ Print / Save as PDF</button>
+  </div>
+
+  <div class="resume-container">
+    <header>
+      <div>
+        <h1>Harshitha Reddy</h1>
+        <div class="subtitle">Full Stack Developer & Computer Science Student</div>
+      </div>
+      <div class="contact-info">
+        <div>Email: <a href="mailto:harshithareddy.dev@gmail.com">harshithareddy.dev@gmail.com</a></div>
+        <div>GitHub: <a href="https://github.com/harshithareddy" target="_blank">github.com/harshithareddy</a></div>
+        <div>LinkedIn: <a href="https://linkedin.com/in/harshithareddy" target="_blank">linkedin.com/in/harshithareddy</a></div>
+        <div>Location: Hyderabad, India</div>
+      </div>
+    </header>
+
+    <section>
+      <h2>Professional Summary</h2>
+      <p style="font-size: 0.9rem; color: #374151;">
+        Goal-oriented Computer Science undergraduate with hands-on experience in full-stack web technologies (React.js, Node.js, Express, Tailwind CSS) and solid foundation in Data Structures and Algorithms. Proactive contributor with proven volunteer leadership, strong problem-solving skills, and a dedication to writing clean, maintainable, and high-performance code.
+      </p>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="entry">
+        <div class="entry-header">
+          <span>Bachelor of Technology in Computer Science & Engineering</span>
+          <span class="entry-date">2023 – 2027</span>
+        </div>
+        <div class="entry-sub">Engineering College &bull; CGPA: 8.8 / 10.0</div>
+        <ul>
+          <li>Relevant Coursework: Data Structures, Algorithms, Web Technologies, Database Systems, Computer Networks, OOP.</li>
+          <li>Core Member of the Web Team (Vols) and Technical Society.</li>
+        </ul>
+      </div>
+      <div class="entry">
+        <div class="entry-header">
+          <span>Senior Secondary School (Class XII)</span>
+          <span class="entry-date">2021 – 2023</span>
+        </div>
+        <div class="entry-sub">State Board / CBSE &bull; Score: 94.5%</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-cat">Frontend:</div>
+        <div class="skill-val">React.js, JavaScript (ES6+), Tailwind CSS, HTML5, CSS3, Vite, Next.js</div>
+        <div class="skill-cat">Backend & DB:</div>
+        <div class="skill-val">Node.js, Express.js, MongoDB, RESTful APIs, SQL</div>
+        <div class="skill-cat">Languages:</div>
+        <div class="skill-val">JavaScript, C, C++, Python, SQL</div>
+        <div class="skill-cat">Tools & Platforms:</div>
+        <div class="skill-val">Git, GitHub, VS Code, Postman, Vercel, Netlify</div>
+        <div class="skill-cat">Core Competencies:</div>
+        <div class="skill-val">Data Structures & Algorithms, Responsive Design, Web Accessibility, Team Collaboration</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Key Projects</h2>
+      <div class="entry">
+        <div class="entry-header">
+          <span>CampusConnect – Volunteer & Event Hub</span>
+          <span class="entry-date">React, Node.js, Express, MongoDB, Tailwind</span>
+        </div>
+        <ul>
+          <li>Engineered a role-based event platform streamlining registration for 500+ student attendees and volunteers.</li>
+          <li>Implemented volunteer shift scheduler, dynamic ticket pass generation, and real-time coordinator dashboards.</li>
+        </ul>
+      </div>
+      <div class="entry">
+        <div class="entry-header">
+          <span>DevPulse – Developer Productivity & Snippet Hub</span>
+          <span class="entry-date">React, Vite, Tailwind CSS, LocalStorage API</span>
+        </div>
+        <ul>
+          <li>Designed a client-side developer workspace supporting syntax-highlighted snippet archiving, regex testing, and JSON validation.</li>
+          <li>Architected an offline-first caching system delivering instant sub-50ms search and retrieval.</li>
+        </ul>
+      </div>
+      <div class="entry">
+        <div class="entry-header">
+          <span>TaskFlow – Agile Kanban Studio</span>
+          <span class="entry-date">React, Tailwind CSS, HTML5 Drag & Drop</span>
+        </div>
+        <ul>
+          <li>Created a responsive sprint management tool with smooth drag-and-drop card workflows and automated task analytics.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Volunteering & Leadership</h2>
+      <div class="entry">
+        <div class="entry-header">
+          <span>Web Team Volunteer – Campus Technical Society</span>
+          <span class="entry-date">2023 – Present</span>
+        </div>
+        <ul>
+          <li>Collaborated with a team of 8+ developers to design and deploy web portals for campus fests and technical symposiums.</li>
+          <li>Conducted interactive peer sessions on frontend fundamentals (HTML, CSS, Git, and React).</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Certifications</h2>
+      <ul>
+        <li>Meta Frontend Developer Professional Certificate (Coursera)</li>
+        <li>Responsive Web Design Certification (freeCodeCamp)</li>
+        <li>HackerRank Problem Solving (Intermediate)</li>
+      </ul>
+    </section>
+  </div>
+
+</body>
+</html>
