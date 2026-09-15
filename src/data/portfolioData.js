@@ -15,7 +15,7 @@ export const personalInfo = {
   location: "Thane, Maharashtra",
   phone: "8097739710",
   email: "harshithareddy5965@gmail.com",
-  github: "https://github.com/harshithareddy",
+  github: "https://github.com/HarshithaReddy00",
   linkedin: "https://www.linkedin.com/in/harshitha-reddy-066475374",
   resumeUrl: "/resume.html",
 };
@@ -108,7 +108,7 @@ export const projectsData = [
       "Conducted keyword integration and content structure audits for optimal indexing"
     ],
     liveUrl: "#",
-    githubUrl: "https://github.com/harshithareddy",
+    githubUrl: "https://github.com/HarshithaReddy00",
     accentColor: "from-blue-600 to-indigo-600"
   },
   {

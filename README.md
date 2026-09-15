@@ -15,7 +15,7 @@
 - 🔗 **Live Portfolio:** [http://localhost:5173](http://localhost:5173) *(Local)* / Deployed Live URL
 - 📄 **ATS-Friendly Printable Resume:** [View Resume](public/resume.html)
 - 💼 **LinkedIn:** [harshitha-reddy-066475374](https://www.linkedin.com/in/harshitha-reddy-066475374)
-- 🐙 **GitHub:** [github.com/harshithareddy](https://github.com/harshithareddy)
+- 🐙 **GitHub:** [github.com/HarshithaReddy00](https://github.com/HarshithaReddy00)
 - 📧 **Email:** [harshithareddy5965@gmail.com](mailto:harshithareddy5965@gmail.com)
 - 📱 **Phone:** [+91 8097739710](tel:8097739710)
 - 📍 **Location:** Thane, Maharashtra
