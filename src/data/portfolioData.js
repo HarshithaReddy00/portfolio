@@ -1,16 +1,17 @@
 export const personalInfo = {
   name: "Harshitha Reddy",
-  role: "Computer Engineering Student",
+  role: "Founder's Intern & Computer Engineering Student",
   roles: [
+    "Founder's Intern at Artinaa",
     "Computer Engineering Student",
     "Web Development Enthusiast",
     "On-Page SEO Specialist",
     "SIES Nerul • Pointer: 9.8",
     "Badminton Player & Trekker"
   ],
-  tagline: "Computer Engineering Undergraduate at SIES Nerul (Mumbai University) with a 9.8 GPA, passionate about web development, basic programming logic, and On-Page SEO.",
-  bio: "I am a dedicated Computer Engineering student at SIES Graduate School of Technology, Nerul (Mumbai University) holding a 9.8 Pointer/GPA. I have hands-on experience in HTML, C++, JavaScript basics, and On-Page Search Engine Optimization. Beyond academics, I am an active competitive badminton player and outdoor trekker with proven team collaboration, discipline, and planning abilities.",
-  status: "B.Tech Computer Engineering | SIES Nerul | GPA: 9.8",
+  tagline: "Founder's Intern at Artinaa & Computer Engineering Undergraduate at SIES Nerul (Mumbai University) with a 9.8 GPA.",
+  bio: "I am currently working as a Founder's Intern at Artinaa while pursuing my Computer Engineering degree at SIES Graduate School of Technology, Nerul (Mumbai University) with a 9.8 Pointer/GPA. I combine technical skills in web development and On-Page SEO with high-impact startup execution, alongside a strong sporting background in competitive badminton and trekking.",
+  status: "Founder's Intern @ Artinaa | B.Tech CE (GPA: 9.8)",
   location: "Thane, Maharashtra",
   phone: "8097739710",
   email: "harshithareddy5965@gmail.com",
@@ -37,6 +38,21 @@ export const volunteerHighlights = {
     "📈 On-Page SEO & Content Strategy"
   ]
 };
+
+export const experienceData = [
+  {
+    role: "Founder's Intern",
+    company: "Artinaa",
+    duration: "Present",
+    type: "Internship",
+    description: "Collaborating directly with founders at Artinaa on business initiatives, digital presence, and cross-functional execution.",
+    highlights: [
+      "Working closely with the founding team on core operational workflows and digital strategy",
+      "Assisting in web development, content optimization, and structured execution",
+      "Demonstrating strong ownership, rapid learning, and collaborative leadership"
+    ]
+  }
+];
 
 export const extracurricularData = [
   {
@@ -152,8 +168,9 @@ export const educationData = [
 ];
 
 export const resumeData = {
-  summary: "Computer Engineering undergraduate at SIES Nerul (Mumbai University) with an outstanding 9.8 pointer. Possesses practical skills in HTML, C++, JavaScript (Basic), and On-Page Search Engine Optimization. Proven collaborative spirit demonstrated through group web projects, competitive badminton, and organized trekking expeditions.",
+  summary: "Founder's Intern at Artinaa and Computer Engineering undergraduate at SIES Nerul (Mumbai University) with an outstanding 9.8 pointer. Possesses practical skills in HTML, C++, JavaScript (Basic), and On-Page Search Engine Optimization. Proven collaborative spirit demonstrated through startup execution, group web projects, competitive badminton, and organized trekking expeditions.",
   certifications: [
+    "Founder's Intern at Artinaa (Present)",
     "Bachelor of Technology in Computer Engineering (Ongoing - GPA: 9.8)",
     "MHT-CET 91 Percentile Achiever",
     "CBSE Class X 92.4% Distinction"

@@ -11,7 +11,7 @@ import {
   Printer
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
-import { personalInfo, resumeData, educationData, volunteerHighlights } from '../data/portfolioData';
+import { personalInfo, resumeData, educationData, experienceData, volunteerHighlights } from '../data/portfolioData';
 
 function Resume() {
   const [downloadSuccess, setDownloadSuccess] = useState(false);
@@ -113,6 +113,40 @@ function Resume() {
                 <p className="text-sm text-zinc-600 dark:text-zinc-300 leading-relaxed bg-zinc-50 dark:bg-zinc-900/60 p-4 rounded-2xl border border-zinc-200/60 dark:border-zinc-800/60">
                   {resumeData.summary}
                 </p>
+              </div>
+
+              {/* Professional Experience */}
+              <div className="space-y-3">
+                <h4 className="text-xs font-mono uppercase tracking-wider text-indigo-600 dark:text-indigo-400 font-bold flex items-center gap-2">
+                  <Briefcase className="w-4 h-4" />
+                  <span>Experience</span>
+                </h4>
+                {experienceData && experienceData.map((exp, idx) => (
+                  <div
+                    key={idx}
+                    className="p-4 rounded-2xl bg-zinc-50 dark:bg-zinc-900/60 border border-zinc-200/60 dark:border-zinc-800/60 space-y-2"
+                  >
+                    <div className="flex justify-between items-baseline flex-wrap">
+                      <div>
+                        <span className="font-bold text-zinc-900 dark:text-white text-sm">
+                          {exp.role}
+                        </span>
+                        <span className="text-xs font-semibold text-indigo-600 dark:text-indigo-400 ml-2">
+                          &bull; {exp.company}
+                        </span>
+                      </div>
+                      <span className="text-xs font-semibold text-emerald-600 dark:text-emerald-400 font-mono">{exp.duration}</span>
+                    </div>
+                    <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                      {exp.description}
+                    </p>
+                    <ul className="space-y-1 text-xs text-zinc-600 dark:text-zinc-400 list-disc list-inside">
+                      {exp.highlights.map((h, i) => (
+                        <li key={i}>{h}</li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
               </div>
 
               {/* Education */}
