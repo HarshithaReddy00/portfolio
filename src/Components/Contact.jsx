@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { 
   Mail, 
+  Phone,
   Send, 
   Copy, 
   Check, 
@@ -132,6 +133,25 @@ function Contact() {
                   className="block text-base sm:text-lg font-bold text-zinc-900 dark:text-white hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors mt-0.5"
                 >
                   {personalInfo.email}
+                </a>
+              </div>
+            </div>
+
+            {/* Direct Phone Card */}
+            <div className="glass-panel rounded-2xl p-6 border border-zinc-200/80 dark:border-zinc-800 space-y-2">
+              <div className="flex items-center justify-between">
+                <div className="w-10 h-10 rounded-xl bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center">
+                  <Phone className="w-5 h-5" />
+                </div>
+                <span className="text-xs font-mono text-zinc-400">Call / SMS</span>
+              </div>
+              <div>
+                <span className="text-xs text-zinc-400 uppercase font-mono tracking-wider">Phone Number</span>
+                <a
+                  href={`tel:${personalInfo.phone}`}
+                  className="block text-base sm:text-lg font-bold text-zinc-900 dark:text-white hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors mt-0.5"
+                >
+                  {personalInfo.phone}
                 </a>
               </div>
             </div>

@@ -15,7 +15,7 @@ function Projects() {
   const [activeCategory, setActiveCategory] = useState('All');
   const [selectedProject, setSelectedProject] = useState(null);
 
-  const categories = ['All', 'Full Stack', 'Frontend', 'Core CS'];
+  const categories = ['All', 'Group Project', 'Web Development'];
 
   const filteredProjects = activeCategory === 'All'
     ? projectsData

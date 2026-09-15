@@ -1,203 +1,168 @@
 export const personalInfo = {
   name: "Harshitha Reddy",
-  role: "Full Stack Developer",
+  role: "Computer Engineering Student",
   roles: [
-    "Full Stack Developer",
-    "Frontend Specialist",
-    "Web Team Volunteer",
-    "Open Source Enthusiast",
-    "Creative Problem Solver"
+    "Computer Engineering Student",
+    "Web Development Enthusiast",
+    "On-Page SEO Specialist",
+    "SIES Nerul • Pointer: 9.8",
+    "Badminton Player & Trekker"
   ],
-  tagline: "Crafting modern, accessible, and high-performance digital experiences with passion & precision.",
-  bio: "I am a proactive Computer Science student and software developer passionate about modern web technologies, responsive user experiences, and collaborative open-source engineering. Whether developing full-stack web platforms, optimizing frontend performance, or contributing as an enthusiastic volunteer in tech teams, I take pride in turning creative ideas into scalable, beautiful realities.",
-  status: "Available for Web Team & Full Stack Roles",
-  location: "Hyderabad, India",
+  tagline: "Computer Engineering Undergraduate at SIES Nerul (Mumbai University) with a 9.8 GPA, passionate about web development, basic programming logic, and On-Page SEO.",
+  bio: "I am a dedicated Computer Engineering student at SIES Graduate School of Technology, Nerul (Mumbai University) holding a 9.8 Pointer/GPA. I have hands-on experience in HTML, C++, JavaScript basics, and On-Page Search Engine Optimization. Beyond academics, I am an active competitive badminton player and outdoor trekker with proven team collaboration, discipline, and planning abilities.",
+  status: "B.Tech Computer Engineering | SIES Nerul | GPA: 9.8",
+  location: "Thane, Maharashtra",
+  phone: "8097739710",
   email: "harshithareddy5965@gmail.com",
   github: "https://github.com/harshithareddy",
-  linkedin: "https://linkedin.com/in/harshithareddy",
-  resumeUrl: "/resume.html", // printable & downloadable interactive CV
+  linkedin: "https://www.linkedin.com/in/harshitha-reddy-066475374",
+  resumeUrl: "/resume.html",
 };
 
 export const stats = [
-  { label: "Projects Completed", value: "10+", detail: "Full stack & web apps" },
-  { label: "Tech Stacks Mastered", value: "12+", detail: "React, Node, Tailwind, etc." },
-  { label: "Git Commits", value: "500+", detail: "Consistent open-source activity" },
-  { label: "Team Spirit", value: "100%", detail: "Dedicated volunteer & leader" }
+  { label: "Current Pointer", value: "9.8", detail: "SIES, Nerul (Mumbai Univ)" },
+  { label: "CET Percentile", value: "91%", detail: "Competitive Entrance Score" },
+  { label: "Class X (CBSE)", value: "92.4%", detail: "NHSS Thane" },
+  { label: "Class XII", value: "72.6%", detail: "SRJC, Thane" }
 ];
 
 export const volunteerHighlights = {
-  title: "Why the Web Team? (Vols Dedication)",
-  statement: "Being part of the Web Team is about more than just writing code — it's about driving real campus impact, empowering student communities through smooth digital tools, and collaborating seamlessly under deadlines. I bring clean coding habits, fast learning adaptability, and boundless enthusiasm to every team endeavor.",
+  title: "Extracurricular Activities & Leadership",
+  statement: "Demonstrating teamwork, sharp focus, planning, and collaborative leadership on and off the field.",
   badges: [
-    "🚀 Rapid Prototyping",
-    "🤝 Collaborative Teammate",
-    "📱 Mobile-First Responsive Design",
-    "⚡ High-Performance Code",
-    "🎨 UI/UX Detail Oriented"
+    "🏸 Active Sportsman / Badminton Player",
+    "🏔️ Group Trekking & Adventure Expeditions",
+    "🤝 Collaborative Team Player",
+    "🎯 Focused & Disciplined Execution",
+    "📈 On-Page SEO & Content Strategy"
   ]
 };
 
+export const extracurricularData = [
+  {
+    title: "Active Sportsman / Badminton Player",
+    description: "Regularly participate in competitive and recreational badminton, fostering teamwork, discipline, and sharp focus."
+  },
+  {
+    title: "Outdoor & Adventure Activities",
+    description: "Organized and participated in group trekking expeditions, demonstrating strong navigation, planning, and collaborative skills in team settings."
+  }
+];
+
 export const skillsData = [
   {
-    category: "Frontend",
+    category: "Web Development",
     skills: [
-      { name: "React.js", level: 90, experience: "Advanced", desc: "Component architecture, hooks, state management, context" },
-      { name: "JavaScript (ES6+)", level: 92, experience: "Advanced", desc: "Async/await, DOM manipulation, closures, modern syntax" },
-      { name: "Tailwind CSS", level: 95, experience: "Mastery", desc: "Responsive design, utility-first styling, custom theme config" },
-      { name: "HTML5 & CSS3", level: 95, experience: "Mastery", desc: "Semantic markup, CSS Grid, Flexbox, keyframe animations" },
-      { name: "Next.js / Vite", level: 85, experience: "Proficient", desc: "Fast build tooling, SSR/SSG concepts, asset optimization" }
+      { name: "HTML", level: 90, experience: "Proficient", desc: "Structured semantic webpage layouts, clean markup, accessibility" },
+      { name: "C++", level: 85, experience: "Proficient", desc: "Object-oriented programming, data handling, logic building" },
+      { name: "JavaScript (Basic)", level: 75, experience: "Basic", desc: "DOM manipulation, scripting fundamentals, interactive web features" }
     ]
   },
   {
-    category: "Backend & DB",
+    category: "Search Engine Optimization",
     skills: [
-      { name: "Node.js", level: 82, experience: "Proficient", desc: "REST APIs, event loop, middleware architecture" },
-      { name: "Express.js", level: 85, experience: "Proficient", desc: "API routing, authentication, request handling, CORS" },
-      { name: "MongoDB & Mongoose", level: 80, experience: "Proficient", desc: "NoSQL schema design, aggregation pipelines, CRUD" },
-      { name: "RESTful APIs", level: 88, experience: "Advanced", desc: "Stateless architecture, JSON formatting, HTTP status codes" }
+      { name: "On-Page SEO", level: 90, experience: "Advanced", desc: "Optimizing content visibility, meta tags, and search engine friendliness" },
+      { name: "Content Optimization", level: 88, experience: "Proficient", desc: "Structuring text, readability, heading hierarchy, user intent matching" },
+      { name: "Keyword Integration", level: 85, experience: "Proficient", desc: "Strategic keyword placement, relevance targeting, and density optimization" }
     ]
   },
   {
-    category: "Languages",
+    category: "Core Concepts",
     skills: [
-      { name: "JavaScript", level: 92, experience: "Advanced", desc: "Core language, modular architecture, browser APIs" },
-      { name: "C / C++", level: 84, experience: "Proficient", desc: "Pointers, memory allocation, STL, competitive coding" },
-      { name: "Python", level: 78, experience: "Intermediate", desc: "Scripting, basic automation, data handling" },
-      { name: "SQL", level: 80, experience: "Proficient", desc: "Relational queries, joins, indexes, schema design" }
-    ]
-  },
-  {
-    category: "Tools & DevOps",
-    skills: [
-      { name: "Git & GitHub", level: 90, experience: "Advanced", desc: "Version control, branching, PR reviews, merge workflows" },
-      { name: "VS Code", level: 95, experience: "Mastery", desc: "Debugging, extensions, snippet productivity" },
-      { name: "Vercel / Netlify", level: 88, experience: "Proficient", desc: "Continuous deployment, preview deployments, domain setup" },
-      { name: "Postman", level: 85, experience: "Proficient", desc: "API testing, environment variables, collection documentation" }
-    ]
-  },
-  {
-    category: "Core CS",
-    skills: [
-      { name: "Data Structures", level: 88, experience: "Advanced", desc: "Arrays, Linked Lists, Trees, Graphs, Stacks, Queues" },
-      { name: "Algorithms", level: 85, experience: "Proficient", desc: "Sorting, Searching, Greedy, Dynamic Programming, Two-Pointers" },
-      { name: "Object Oriented Design", level: 86, experience: "Proficient", desc: "Encapsulation, Inheritance, Polymorphism, Abstraction" },
-      { name: "Database Management", level: 82, experience: "Proficient", desc: "Normalization, ACID properties, transactions, indexing" }
+      { name: "Foundations of Computer Engineering", level: 92, experience: "Advanced", desc: "Computer hardware/software basics, engineering concepts, systems" },
+      { name: "Basic Programming Logic", level: 90, experience: "Advanced", desc: "Algorithm flowcharts, problem decomposition, condition & loop structures" }
     ]
   }
 ];
 
 export const projectsData = [
   {
-    id: "campus-connect",
-    title: "CampusConnect - Volunteer & Event Hub",
-    category: "Full Stack",
+    id: "seo-web-project",
+    title: "Web Development & On-Page SEO Project",
+    category: "Group Project",
     featured: true,
-    tagline: "Empowering volunteer coordination & campus event discovery",
-    description: "A comprehensive event and volunteer management platform built for college societies and clubs. Streamlines volunteer registration, shift assignment, digital ticketing, and announcements with instant mobile notifications.",
-    image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=800&q=80",
-    tags: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+    tagline: "Team Project (February 2026) — Designing, building & deploying an SEO-optimized webpage",
+    description: "Collaborated in a team environment to design, build, and deploy a structured webpage. Implemented essential On-Page SEO strategies to optimize content visibility and search engine friendliness, while managing code versions and collaborating with team members.",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+    tags: ["HTML", "JavaScript", "On-Page SEO", "Content Optimization", "Keyword Integration", "Version Control"],
     highlights: [
-      "Role-based authentication for Event Organizers and Student Volunteers",
-      "Interactive volunteer shift sign-up with real-time slot counter",
-      "Automated QR-code pass generation for seamless event check-ins",
-      "Event analytics dashboard showing participant turnout and feedback"
+      "Collaborated in a team environment to design, build, and deploy a structured webpage",
+      "Implemented essential On-Page SEO strategies to optimize content visibility and search engine friendliness",
+      "Managed code versions and collaborated with team members to ensure seamless integration of design and SEO elements",
+      "Conducted keyword integration and content structure audits for optimal indexing"
     ],
-    liveUrl: "https://campus-connect-vols.vercel.app",
-    githubUrl: "https://github.com/harshithareddy/campus-connect",
+    liveUrl: "#",
+    githubUrl: "https://github.com/harshithareddy",
     accentColor: "from-blue-600 to-indigo-600"
   },
   {
-    id: "dev-pulse",
-    title: "DevPulse - Developer Productivity & Snippet Hub",
-    category: "Frontend",
+    id: "portfolio-website",
+    title: "Personal Portfolio & Web Showcase",
+    category: "Web Development",
     featured: true,
-    tagline: "All-in-one developer companion with offline snippet storage",
-    description: "An ultra-fast client-side productivity suite designed for web developers. Provides categorized code snippet archiving, markdown notes previewer, regex tester, and instant JSON validator.",
-    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
-    tags: ["React", "Vite", "Tailwind CSS", "LocalStorage", "Lucide React"],
+    tagline: "Responsive personal portfolio showcasing academic and project credentials",
+    description: "Designed and engineered an interactive, fully responsive personal portfolio website featuring dark/light mode, smooth navigation, detailed academic showcase, and ATS-ready printable resume.",
+    image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80",
+    tags: ["HTML", "JavaScript", "Responsive Design", "UI/UX", "SEO Friendly"],
     highlights: [
-      "Zero-latency offline storage using structured LocalStorage persistence",
-      "Multi-language code snippet library with instant copy-to-clipboard",
-      "Interactive JSON formatter, diff checker, and live regex playground",
-      "Customizable tags, search query filter, and light/dark theme switcher"
+      "Fully responsive modern UI with dark & light theme persistence",
+      "Dedicated interactive ATS-friendly printable CV viewer",
+      "Direct contact integration with phone, email, and LinkedIn channels",
+      "Structured SEO-friendly layout with fast performance"
     ],
-    liveUrl: "https://devpulse-hub.vercel.app",
-    githubUrl: "https://github.com/harshithareddy/dev-pulse",
+    liveUrl: "#",
+    githubUrl: "https://github.com/harshithareddy/portfolio",
     accentColor: "from-purple-600 to-pink-600"
-  },
-  {
-    id: "taskflow",
-    title: "TaskFlow - Agile Kanban Studio",
-    category: "Frontend",
-    featured: false,
-    tagline: "Minimalist drag-and-drop workflow tracking tool",
-    description: "An intuitive Kanban board application for engineering sprint management. Features smooth drag-and-drop card movements, priority indicators, subtask progress tracking, and productivity analytics.",
-    image: "https://images.unsplash.com/photo-1618401471353-b98aedd04e11?auto=format&fit=crop&w=800&q=80",
-    tags: ["React", "Tailwind CSS", "HTML5 Drag & Drop", "Lucide Icons"],
-    highlights: [
-      "Fluid drag-and-drop card interaction across backlog, in-progress, and done columns",
-      "Color-coded priority badges (Urgent, High, Medium, Low)",
-      "Card search filtering and due-date countdown warnings",
-      "Detailed activity log tracking card transitions and timestamps"
-    ],
-    liveUrl: "https://taskflow-kanban.vercel.app",
-    githubUrl: "https://github.com/harshithareddy/taskflow-kanban",
-    accentColor: "from-emerald-600 to-teal-600"
-  },
-  {
-    id: "algoscope",
-    title: "AlgoScope - Algorithm & DSA Visualizer",
-    category: "Core CS",
-    featured: false,
-    tagline: "Interactive educational visualization for sorting & tree algorithms",
-    description: "An interactive computer science visualizer designed to demystify complex algorithms. Animates Bubble Sort, Merge Sort, Quick Sort, and Binary Search Trees with step-by-step playback controls.",
-    image: "https://images.unsplash.com/photo-1516116211227-bbc13c733359?auto=format&fit=crop&w=800&q=80",
-    tags: ["JavaScript (ES6)", "React", "Tailwind CSS", "DSA", "Algorithms"],
-    highlights: [
-      "Real-time visual bar comparisons and swap animations with audio pitch feedback",
-      "Adjustable speed slider and random array generator",
-      "Side-by-side time & space complexity breakdown for each algorithm",
-      "Step forward and backward execution to analyze edge cases"
-    ],
-    liveUrl: "https://algoscope-dsa.vercel.app",
-    githubUrl: "https://github.com/harshithareddy/algoscope-visualizer",
-    accentColor: "from-amber-500 to-orange-600"
   }
 ];
 
 export const educationData = [
   {
-    degree: "B.Tech in Computer Science & Engineering",
-    institution: "Engineering College / University",
-    duration: "2023 - 2027",
-    gpa: "8.8 / 10.0",
+    degree: "Bachelor of Technology (B.Tech) in Computer Engineering",
+    institution: "Mumbai University, SIES Graduate School of Technology, Nerul",
+    duration: "Graduation: 2029",
+    gpa: "Pointer / GPA: 9.8",
     highlights: [
-      "Core Courses: Data Structures, Algorithms, Web Technologies, Database Systems, Computer Networks",
-      "Active Member of Technical Club & Web Development Volunteer Team",
-      "Participated in regional hackathons and technical symposiums"
+      "Current Pointer/GPA: 9.8",
+      "Focus: Foundations of Computer Engineering, Programming Logic, Web Development",
+      "Active participant in technical and campus team initiatives"
     ]
   },
   {
-    degree: "Senior Secondary Education (Class XII)",
-    institution: "State Board / CBSE",
-    duration: "2021 - 2023",
-    gpa: "94.5%",
-    highlights: ["Majors: Mathematics, Physics, Chemistry, Computer Science"]
+    degree: "Class XII (Integrated Coaching with school topper)",
+    institution: "SRJC, Thane",
+    duration: "Completion: 2025",
+    gpa: "Percentage: 72.6% | CET: 91%ile",
+    highlights: [
+      "MHT-CET Percentile: 91%",
+      "Class XII Board Score: 72.6%",
+      "Integrated competitive coaching curriculum"
+    ]
+  },
+  {
+    degree: "Class X (CBSE Board)",
+    institution: "NHSS Thane",
+    duration: "Completion: 2023",
+    gpa: "Percentage: 92.4%",
+    highlights: [
+      "CBSE Board Score: 92.4%",
+      "Strong foundation in Mathematics and Science"
+    ]
   }
 ];
 
 export const resumeData = {
-  summary: "Motivated Computer Science undergraduate with a solid foundation in full-stack web development (React, Node.js, Tailwind CSS) and core CS fundamentals. Demonstrated volunteer spirit, leadership, and rapid problem-solving abilities.",
+  summary: "Computer Engineering undergraduate at SIES Nerul (Mumbai University) with an outstanding 9.8 pointer. Possesses practical skills in HTML, C++, JavaScript (Basic), and On-Page Search Engine Optimization. Proven collaborative spirit demonstrated through group web projects, competitive badminton, and organized trekking expeditions.",
   certifications: [
-    "Meta Frontend Developer Professional Certificate (Coursera)",
-    "Responsive Web Design (freeCodeCamp)",
-    "HackerRank Problem Solving (Intermediate)"
+    "Bachelor of Technology in Computer Engineering (Ongoing - GPA: 9.8)",
+    "MHT-CET 91 Percentile Achiever",
+    "CBSE Class X 92.4% Distinction"
   ],
   interests: [
-    "Full-Stack Web Development",
-    "Open Source Collaboration",
-    "UI/UX Accessibility & Aesthetics",
-    "Competitive Programming & DSA",
-    "Community & Volunteer Tech Initiatives"
+    "Web Development (HTML, C++, JavaScript)",
+    "On-Page Search Engine Optimization (SEO)",
+    "Competitive Badminton",
+    "Outdoor & Group Trekking Expeditions",
+    "Team Leadership & Collaboration"
   ]
 };

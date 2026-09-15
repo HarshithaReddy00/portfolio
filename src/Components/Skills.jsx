@@ -17,7 +17,7 @@ function Skills() {
   const [activeCategory, setActiveCategory] = useState('All');
   const [searchQuery, setSearchQuery] = useState('');
 
-  const categories = ['All', 'Frontend', 'Backend & DB', 'Languages', 'Tools & DevOps', 'Core CS'];
+  const categories = ['All', 'Web Development', 'Search Engine Optimization', 'Core Concepts'];
 
   // Flatten and filter skills
   const filteredSkills = useMemo(() => {
@@ -160,7 +160,7 @@ function Skills() {
             <span>Daily Driver Tech Stack</span>
           </div>
           <div className="flex flex-wrap items-center justify-center gap-2.5">
-            {['React', 'Vite', 'Tailwind CSS', 'JavaScript (ES6+)', 'Node.js', 'Express', 'MongoDB', 'Git', 'GitHub', 'C++', 'DSA', 'REST APIs'].map((tech, i) => (
+            {['HTML', 'C++', 'JavaScript (Basic)', 'On-Page SEO', 'Content Optimization', 'Keyword Integration', 'Foundations of Computer Engineering', 'Programming Logic'].map((tech, i) => (
               <span
                 key={i}
                 className="px-3.5 py-1.5 rounded-xl text-xs sm:text-sm font-semibold bg-zinc-100 dark:bg-zinc-800/80 text-zinc-800 dark:text-zinc-200 border border-zinc-200 dark:border-zinc-700/80 shadow-xs hover:border-indigo-500 transition-colors"

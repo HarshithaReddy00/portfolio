@@ -95,7 +95,7 @@ function Hero({ onOpenResumeModal }) {
               </span>
               <span className="inline-flex items-center gap-1.5">
                 <Code2 className="w-4 h-4 text-indigo-500" />
-                React • Vite • Node • Tailwind
+                HTML • C++ • JavaScript • On-Page SEO
               </span>
             </div>
 
@@ -185,11 +185,14 @@ function Hero({ onOpenResumeModal }) {
                     <span className="text-zinc-500 dark:text-zinc-400">name:</span> <span className="text-emerald-600 dark:text-emerald-400">"{personalInfo.name}"</span>,
                   </div>
                   <div className="pl-4">
-                    <span className="text-zinc-500 dark:text-zinc-400">targetTeam:</span> <span className="text-emerald-600 dark:text-emerald-400">"Web Team (Vols)"</span>,
+                    <span className="text-zinc-500 dark:text-zinc-400">college:</span> <span className="text-emerald-600 dark:text-emerald-400">"SIES Nerul, Mumbai"</span>,
                   </div>
                   <div className="pl-4">
-                    <span className="text-zinc-500 dark:text-zinc-400">primaryStack:</span> [
-                    <span className="text-amber-600 dark:text-amber-400">"React"</span>, <span className="text-amber-600 dark:text-amber-400">"Vite"</span>, <span className="text-amber-600 dark:text-amber-400">"Tailwind"</span>],
+                    <span className="text-zinc-500 dark:text-zinc-400">currentPointer:</span> <span className="text-blue-600 dark:text-blue-400">9.8</span>,
+                  </div>
+                  <div className="pl-4">
+                    <span className="text-zinc-500 dark:text-zinc-400">primarySkills:</span> [
+                    <span className="text-amber-600 dark:text-amber-400">"HTML"</span>, <span className="text-amber-600 dark:text-amber-400">"C++"</span>, <span className="text-amber-600 dark:text-amber-400">"JavaScript"</span>, <span className="text-amber-600 dark:text-amber-400">"SEO"</span>],
                   </div>
                   <div className="pl-4">
                     <span className="text-zinc-500 dark:text-zinc-400">hardWorker:</span> <span className="text-blue-600 dark:text-blue-400">true</span>,

@@ -16,23 +16,23 @@ function About() {
   const pillars = [
     {
       icon: <Layers className="w-6 h-6 text-indigo-500" />,
-      title: "Frontend Engineering",
-      desc: "Creating pixel-perfect, mobile-first, and accessible user interfaces with React, Tailwind CSS, and modern CSS architecture."
+      title: "Web Development",
+      desc: "Designing, building, and deploying structured webpages using semantic HTML, C++, and JavaScript fundamentals."
     },
     {
       icon: <Cpu className="w-6 h-6 text-purple-500" />,
-      title: "Core CS & DSA",
-      desc: "Deep appreciation for data structures, computational logic, and writing optimized algorithms with clean modular code."
+      title: "On-Page SEO",
+      desc: "Implementing essential On-Page SEO strategies, content optimization, and keyword integration for higher search visibility."
     },
     {
-      icon: <GitPullRequest className="w-6 h-6 text-emerald-500" />,
-      title: "Collaborative Git Workflow",
-      desc: "Well-versed in Git branching, merge reviews, pull requests, semantic commits, and issue tracking across distributed teams."
+      icon: <Award className="w-6 h-6 text-emerald-500" />,
+      title: "Academic Excellence (9.8 Pointer)",
+      desc: "Strong computer engineering foundation at SIES Nerul, combined with 91%tile in CET and 92.4% in CBSE Class X."
     },
     {
       icon: <Lightbulb className="w-6 h-6 text-amber-500" />,
-      title: "Rapid Learning & Grit",
-      desc: "Constantly experimenting with modern frameworks, tools, and best practices to adapt quickly to project requirements."
+      title: "Sports & Leadership",
+      desc: "Competitive badminton player and outdoor trekker with proven team collaboration, discipline, and sharp focus."
     }
   ];
 
@@ -76,11 +76,11 @@ function About() {
             <div className="pt-4 border-t border-zinc-200 dark:border-zinc-800/80 grid grid-cols-2 sm:grid-cols-3 gap-3">
               <div className="bg-zinc-100 dark:bg-zinc-800/60 p-3 rounded-xl text-center">
                 <div className="text-xs text-zinc-400 font-medium">Location</div>
-                <div className="text-sm font-semibold text-zinc-800 dark:text-zinc-200 mt-0.5">Hyderabad, IN</div>
+                <div className="text-sm font-semibold text-zinc-800 dark:text-zinc-200 mt-0.5">Thane, MH</div>
               </div>
               <div className="bg-zinc-100 dark:bg-zinc-800/60 p-3 rounded-xl text-center">
                 <div className="text-xs text-zinc-400 font-medium">Degree</div>
-                <div className="text-sm font-semibold text-zinc-800 dark:text-zinc-200 mt-0.5">B.Tech CSE</div>
+                <div className="text-sm font-semibold text-zinc-800 dark:text-zinc-200 mt-0.5">B.Tech CE (9.8)</div>
               </div>
               <div className="bg-zinc-100 dark:bg-zinc-800/60 p-3 rounded-xl text-center col-span-2 sm:col-span-1">
                 <div className="text-xs text-zinc-400 font-medium">Goal</div>
