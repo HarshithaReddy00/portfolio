@@ -12,7 +12,7 @@
 
 ## 🌐 Contact & Important Links
 
-- 🔗 **Live Portfolio:** [http://localhost:5173](http://localhost:5173) *(Local)* / Deployed Live URL
+- 🔗 **Live Portfolio:** [http://localhost:5173](https://harshitha-portfolio-mu.vercel.app/) *(Local)* / Deployed Live URL
 - 📄 **ATS-Friendly Printable Resume:** [View Resume](public/resume.html)
 - 💼 **LinkedIn:** [harshitha-reddy-066475374](https://www.linkedin.com/in/harshitha-reddy-066475374)
 - 🐙 **GitHub:** [github.com/HarshithaReddy00](https://github.com/HarshithaReddy00)
